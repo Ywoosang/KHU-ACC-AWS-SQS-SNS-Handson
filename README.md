@@ -228,7 +228,7 @@ sns-sqs-demo/
 2. **Simple Notification Service** 선택
 3. 왼쪽 메뉴에서 **"Topics"** 클릭
 4. 우측 상단 **"Create topic"** 버튼 클릭
-5. **Create topic** 페이지에서 설정:
+5. **Create topic** 페이지에서 설정
    - **Type**: **Standard** 선택
    - **Name**: `order-event-topic` 입력
 6. 하단 **"Create topic"** 버튼 클릭
@@ -267,7 +267,7 @@ sns-sqs-demo/
 ![](docs/a9b3ff60.png)
 
 3. **"Subscriptions"** 탭 클릭
-4. **"Create subscription"** 버튼 클릭하여 3개 Queue 구독 추가:
+4. **"Create subscription"** 버튼 클릭하여 3개 Queue 구독 추가
 
 ![](docs/83d6604d.png)
 
@@ -288,7 +288,7 @@ sns-sqs-demo/
 
 5. **Subscriptions** 탭에서 3개의 구독이 모두 **Confirmed** 상태인지 확인
 
-![](docs/9c65ce7d.png)
+![](docs/0f1e43a4.png)
 
 ### 환경변수 설정
 
