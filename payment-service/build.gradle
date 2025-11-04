@@ -1,0 +1,9 @@
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    
+    // AWS SDK
+    implementation 'software.amazon.awssdk:sqs:2.20.26'
+    implementation 'software.amazon.awssdk:auth:2.20.26'
+}
+

@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: payment-service
+
+server:
+  port: ${SERVER_PORT:8081}
+
+logging:
+  level:
+    root: INFO
+    com.github.ywoosang.payment: INFO
+    software.amazon.awssdk: WARN
+
+# AWS 설정
+aws:
+  region: ${AWS_REGION:ap-northeast-2}
+  credentials:
+    access-key-id: ${AWS_ACCESS_KEY_ID:}
+    secret-access-key: ${AWS_SECRET_ACCESS_KEY:}
+  sqs:
+    payment:
+      queue:
+        url: ${AWS_SQS_PAYMENT_QUEUE_URL:}
+

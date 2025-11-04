@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: stock-service
+
+server:
+  port: ${SERVER_PORT:8082}
+
+logging:
+  level:
+    root: INFO
+    com.github.ywoosang.stock: INFO
+    software.amazon.awssdk: WARN
+
+# AWS 설정
+aws:
+  region: ${AWS_REGION:ap-northeast-2}
+  credentials:
+    access-key-id: ${AWS_ACCESS_KEY_ID:}
+    secret-access-key: ${AWS_SECRET_ACCESS_KEY:}
+  sqs:
+    stock:
+      queue:
+        url: ${AWS_SQS_STOCK_QUEUE_URL:}
+
